@@ -54,7 +54,7 @@ server "57.180.57.25",
   roles: %w{web db app},
   ssh_options: {
     user: "ec2-user", # overrides user setting above
-    keys: %w(/home/megu/.ssh/id_rsa),
+    keys: %w(/home/megu/.ssh/dic_sample.pem),
     forward_agent: false,
     auth_methods: %w(publickey password)
     # password: "please use keys"
